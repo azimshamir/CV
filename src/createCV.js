@@ -7,29 +7,27 @@ const defaultOptions = {
   printOptions: {
     displayHeaderFooter: false,
   },
-  downloadLink: "https://github.com/mcclowes/CV/raw/master/mcclowes_cv.pdf",
+  downloadLink: "https://github.com/azimshamir/CV/raw/master/azimshamir_cv.pdf",
 };
 
 const meta = {
-  name: "Max Clayton Clowes",
+  name: "Muhammad Azim Shamir",
   description: "Product Manager with diverse software engineering and design background, and experience as a founder of a client-facing business. Have been delivering websites and apps for 10+ years. Duke of York Young Entrepreneur Award winner 2017.",
   previewImage: "https://cv.mcclowes.com/assets/preview.png",
-  previewImageText: "Max Clayton Clowes CV",
+  previewImageText: "Muhammad Azim Shamir CV",
   url: "https://cv.mcclowes.com/",
   twitterUsername: "@mcclowes",
 }
 
 const variations = {
-  productnew: {
+  main: {
     files: [
-      "./src/sections/header/productnew.md",
-      "./src/sections/introduction/productnew.md",
-      "./src/sections/problems.md",
-      "./src/sections/experience/productnew.md",
-      "./src/sections/education/productnew.md",
-      "./src/sections/skills/productnew.md",
-      "./src/sections/awards.md",
-      "./src/sections/aboutme/productnew.md",
+      "./src/sections/header/main.md",
+      "./src/sections/introduction/main.md",
+      "./src/sections/experience/main.md",
+      "./src/sections/education/main.md",
+      "./src/sections/skills/main.md",
+      "./src/sections/aboutme/main.md",
     ],
     customOptions: {
       website: true,
@@ -37,39 +35,13 @@ const variations = {
       debug: true,
       style: [
         "cv",
-        "newspaper",
+        //"newspaper",
       ],
     },
   },
-  product: {
-    files: [
-      "./src/sections/header/normal.md",
-      "./src/sections/introduction/product.md",
-      "./src/sections/skills/product.md",
-      "./src/sections/experience/product.md",
-      "./src/sections/education/product.md",
-      "./src/sections/aboutme/main.md",
-    ],
-    customOptions: {
-      debug: true,
-    },
-  },
-  engineering: {
-    files: [
-      "./src/sections/header/normal.md",
-      "./src/sections/introduction/engineering.md",
-      "./src/sections/skills/engineering.md",
-      "./src/sections/experience/engineering.md",
-      "./src/sections/education/engineering.md",
-      "./src/sections/aboutme/main.md",
-    ],
-    customOptions: {
-      debug: true,
-    }
-  },
 };
 
-const DEFAULT_CV = "productnew"
+const DEFAULT_CV = "main"
 
 const createCV = (variation) => {
   const { files, customOptions } = variations[variation];
@@ -81,8 +53,8 @@ const createCV = (variation) => {
   }
 
   const destination = options.primary
-    ? `./mcclowes_cv.pdf`
-    : `./mcclowes_cv_${variation}.pdf`;
+    ? `./azimshamir_cv.pdf`
+    : `./azimshamir_cv_${variation}.pdf`;
 
   generatePDF(files, destination, options);
 };

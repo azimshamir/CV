@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcclowes/CV.git"
+    "url": "git+https://github.com/azimshamir/CV.git"
   },
   "keywords": [
     "cv",
     "pdf"
   ],
-  "author": "mcclowes",
+  "author": "azimshamir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mcclowes/CV/issues"
+    "url": "https://github.com/azimshamir/CV/issues"
   },
   "husky": {
     "hooks": {
@@ -35,7 +35,7 @@
       "^.+\\.md?$": "markdown-loader-jest"
     }
   },
-  "homepage": "https://github.com/mcclowes/CV#readme",
+  "homepage": "https://github.com/azimshamir/CV#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.13",
     "@babel/core": "^7.12.13",

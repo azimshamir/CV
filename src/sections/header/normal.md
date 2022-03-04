@@ -1,3 +1,3 @@
-# Max Clayton Clowes
+# Muhammad Azim Shamir
 
-[contact@mcclowes.com](mailto:contact@mcclowes.com) · [+44 (0) 7976 136 097](tel:+447976136097) · [mcclowes.com](https://bit.ly/mcclowes)
+[muhammad.azim.shamir@gmail.com](mailto:muhammad.azim.shamir@gmail.com) · [+44 (0) 7916 554 450](tel:+447916554450) · [www.linkedin.com/azim-shamir](www.linkedin.com/azim-shamir)

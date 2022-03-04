@@ -1,7 +1,7 @@
 ## About Me
 
-Regularly attend PM conferences & meet-ups _(Elevate, Product School)_. Keep up to speed with PM best practices through online learning and blogs.
-
-Working on several [personal projects](https://github.com/mcclowes?tab=repositories), including a fantasy football team-building AI and the [tool that made this CV](https://github.com/mcclowes/cv-maker). Regularly attend developer meet-ups _(React London, GitHub Universe, Next Conf)_.
-
-Runner (first marathon should have been in December), cyclist, rock climber, and dancer (1st place university circuit). Singer and multi-instrumentalist.
++ Organised fundraising dinner for the Ben Towne Foundation- a paediatric cancer research group studying safer alternatives to chemotherapy
++ Duke of Edinburgh Gold Award, orientated 2 week hiking expedition to summit Mt.Kenya. Additionally, managed and completed a local school restoration project, 2013
++ Certified Advanced Open Water and Night Diver (PADI)
++ Selected for highly competitive leadership program in Okinawa, Japan (AYDPO) culminating in presentation to local government on coral reef preservation, 2012
++ Brunei National Swim Team Member, 2002-2009
